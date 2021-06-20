@@ -9,7 +9,7 @@ This was a good challenge after learning some UIKit first. Nice to add more desi
 3. Under Source Control, click 'Clone'
 4. Paste link into window and click 'Clone'
 5. Navigate to where project is to be saved
-6. Once opened, Run project and calculate!
+6. Once opened, Run project and play!
 
 ### UI Design
 
