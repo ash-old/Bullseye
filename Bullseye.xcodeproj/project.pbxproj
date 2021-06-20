@@ -7,23 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ECDFA52262B0EDC00CAD35E /* TextViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA51262B0EDC00CAD35E /* TextViews.swift */; };
+		5ECDFA58262B0FBA00CAD35E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA57262B0FBA00CAD35E /* ContentView.swift */; };
+		5ECDFA68262B286600CAD35E /* Shapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA67262B286600CAD35E /* Shapes.swift */; };
+		5ECDFA6C262B3B4300CAD35E /* RoundViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA6B262B3B4300CAD35E /* RoundViews.swift */; };
+		5ECDFA70262B899300CAD35E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA6F262B899300CAD35E /* BackgroundView.swift */; };
+		5ECDFA742632222100CAD35E /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA732632222100CAD35E /* PointsView.swift */; };
+		5ECDFA782632D4B200CAD35E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA772632D4B200CAD35E /* Constants.swift */; };
+		5ECDFA7E2636DC6700CAD35E /* LeaderboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDFA7D2636DC6600CAD35E /* LeaderboardView.swift */; };
 		5ECF64442621042300F0A080 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF64432621042300F0A080 /* BullseyeApp.swift */; };
-		5ECF64462621042300F0A080 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF64452621042300F0A080 /* ContentView.swift */; };
 		5ECF64482621042700F0A080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF64472621042700F0A080 /* Assets.xcassets */; };
 		5ECF644B2621042700F0A080 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECF644A2621042700F0A080 /* Preview Assets.xcassets */; };
+		5ECF645A262358DC00F0A080 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF6459262358DC00F0A080 /* Game.swift */; };
+		5ECF64642623668300F0A080 /* BullseyeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECF64632623668300F0A080 /* BullseyeTests.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5ECF64662623668300F0A080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ECF64382621042300F0A080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ECF643F2621042300F0A080;
+			remoteInfo = Bullseye;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		5ECDFA51262B0EDC00CAD35E /* TextViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViews.swift; sourceTree = "<group>"; };
+		5ECDFA57262B0FBA00CAD35E /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5ECDFA67262B286600CAD35E /* Shapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shapes.swift; sourceTree = "<group>"; };
+		5ECDFA6B262B3B4300CAD35E /* RoundViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundViews.swift; sourceTree = "<group>"; };
+		5ECDFA6F262B899300CAD35E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		5ECDFA732632222100CAD35E /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
+		5ECDFA772632D4B200CAD35E /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5ECDFA7D2636DC6600CAD35E /* LeaderboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeaderboardView.swift; sourceTree = "<group>"; };
 		5ECF64402621042300F0A080 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECF64432621042300F0A080 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
-		5ECF64452621042300F0A080 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5ECF64472621042700F0A080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ECF644A2621042700F0A080 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5ECF644C2621042700F0A080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5ECF6459262358DC00F0A080 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		5ECF64612623668300F0A080 /* BullseyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BullseyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ECF64632623668300F0A080 /* BullseyeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeTests.swift; sourceTree = "<group>"; };
+		5ECF64652623668300F0A080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5ECF643D2621042300F0A080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECF645E2623668300F0A080 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				5ECF64422621042300F0A080 /* Bullseye */,
+				5ECF64622623668300F0A080 /* BullseyeTests */,
 				5ECF64412621042300F0A080 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				5ECF64402621042300F0A080 /* Bullseye.app */,
+				5ECF64612623668300F0A080 /* BullseyeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,10 +91,9 @@
 		5ECF64422621042300F0A080 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
-				5ECF64432621042300F0A080 /* BullseyeApp.swift */,
-				5ECF64452621042300F0A080 /* ContentView.swift */,
-				5ECF64472621042700F0A080 /* Assets.xcassets */,
-				5ECF644C2621042700F0A080 /* Info.plist */,
+				5ECF64552623580C00F0A080 /* App */,
+				5ECF6454262357F900F0A080 /* Views */,
+				5ECF6453262357EF00F0A080 /* Models */,
 				5ECF64492621042700F0A080 /* Preview Content */,
 			);
 			path = Bullseye;
@@ -67,6 +105,48 @@
 				5ECF644A2621042700F0A080 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ECF6453262357EF00F0A080 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF6459262358DC00F0A080 /* Game.swift */,
+				5ECDFA772632D4B200CAD35E /* Constants.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5ECF6454262357F900F0A080 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5ECDFA57262B0FBA00CAD35E /* ContentView.swift */,
+				5ECDFA51262B0EDC00CAD35E /* TextViews.swift */,
+				5ECDFA67262B286600CAD35E /* Shapes.swift */,
+				5ECDFA6B262B3B4300CAD35E /* RoundViews.swift */,
+				5ECDFA6F262B899300CAD35E /* BackgroundView.swift */,
+				5ECDFA732632222100CAD35E /* PointsView.swift */,
+				5ECDFA7D2636DC6600CAD35E /* LeaderboardView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5ECF64552623580C00F0A080 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF64432621042300F0A080 /* BullseyeApp.swift */,
+				5ECF64472621042700F0A080 /* Assets.xcassets */,
+				5ECF644C2621042700F0A080 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5ECF64622623668300F0A080 /* BullseyeTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ECF64632623668300F0A080 /* BullseyeTests.swift */,
+				5ECF64652623668300F0A080 /* Info.plist */,
+			);
+			path = BullseyeTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +169,24 @@
 			productReference = 5ECF64402621042300F0A080 /* Bullseye.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5ECF64602623668300F0A080 /* BullseyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ECF64682623668300F0A080 /* Build configuration list for PBXNativeTarget "BullseyeTests" */;
+			buildPhases = (
+				5ECF645D2623668300F0A080 /* Sources */,
+				5ECF645E2623668300F0A080 /* Frameworks */,
+				5ECF645F2623668300F0A080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ECF64672623668300F0A080 /* PBXTargetDependency */,
+			);
+			name = BullseyeTests;
+			productName = BullseyeTests;
+			productReference = 5ECF64612623668300F0A080 /* BullseyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -100,6 +198,10 @@
 				TargetAttributes = {
 					5ECF643F2621042300F0A080 = {
 						CreatedOnToolsVersion = 12.4;
+					};
+					5ECF64602623668300F0A080 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 5ECF643F2621042300F0A080;
 					};
 				};
 			};
@@ -117,6 +219,7 @@
 			projectRoot = "";
 			targets = (
 				5ECF643F2621042300F0A080 /* Bullseye */,
+				5ECF64602623668300F0A080 /* BullseyeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +234,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5ECF645F2623668300F0A080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,12 +248,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECF64462621042300F0A080 /* ContentView.swift in Sources */,
+				5ECDFA7E2636DC6700CAD35E /* LeaderboardView.swift in Sources */,
+				5ECDFA52262B0EDC00CAD35E /* TextViews.swift in Sources */,
+				5ECF645A262358DC00F0A080 /* Game.swift in Sources */,
+				5ECDFA68262B286600CAD35E /* Shapes.swift in Sources */,
+				5ECDFA742632222100CAD35E /* PointsView.swift in Sources */,
+				5ECDFA70262B899300CAD35E /* BackgroundView.swift in Sources */,
+				5ECDFA58262B0FBA00CAD35E /* ContentView.swift in Sources */,
+				5ECDFA782632D4B200CAD35E /* Constants.swift in Sources */,
 				5ECF64442621042300F0A080 /* BullseyeApp.swift in Sources */,
+				5ECDFA6C262B3B4300CAD35E /* RoundViews.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ECF645D2623668300F0A080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ECF64642623668300F0A080 /* BullseyeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECF64672623668300F0A080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ECF643F2621042300F0A080 /* Bullseye */;
+			targetProxy = 5ECF64662623668300F0A080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5ECF644D2621042700F0A080 /* Debug */ = {
@@ -270,7 +404,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -291,7 +425,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Bullseye/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = Bullseye/Info.plist;
+				INFOPLIST_FILE = Bullseye/App/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,6 +435,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ECF64692623668300F0A080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullseyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashley.BullseyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bullseye.app/Bullseye";
+			};
+			name = Debug;
+		};
+		5ECF646A2623668300F0A080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BullseyeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ashley.BullseyeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bullseye.app/Bullseye";
 			};
 			name = Release;
 		};
@@ -321,6 +493,15 @@
 			buildConfigurations = (
 				5ECF64502621042700F0A080 /* Debug */,
 				5ECF64512621042700F0A080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ECF64682623668300F0A080 /* Build configuration list for PBXNativeTarget "BullseyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECF64692623668300F0A080 /* Debug */,
+				5ECF646A2623668300F0A080 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
